@@ -1,0 +1,15 @@
+#! /bin/sh
+
+cd $(dirname "${0}")
+cd ".."
+
+Link ()
+{
+	ln --symbolic --relative --force "${@}"
+}
+
+Link \
+	Preferences.sublime-settings \
+	~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+
+echo "OK"

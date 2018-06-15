@@ -1,0 +1,30 @@
+{
+	"drag_text": false,
+	"enable_tab_scrolling": false,
+	"match_brackets": false,
+	"match_brackets_content": false,
+	"show_definitions": false,
+
+	"theme": "Soda Light 3.sublime-theme",
+
+	"color_scheme": "Packages/Stalwart/Stalwart.tmTheme",
+	"highlight_line": true,
+	"draw_white_space": "all",
+
+	"tab_size": 3,
+
+	"font_face": "Anonymous Pro",
+	"font_size": 11,
+	"font_options":
+	[
+		"subpixel_antialias",
+		"no_italic"
+	],
+
+	"show_encoding": true,
+	"show_errors_inline": true,
+	"show_line_endings": true,
+
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": false
+}
