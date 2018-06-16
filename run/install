@@ -1,7 +1,7 @@
 #! /bin/sh
 
 cd $(dirname "${0}")
-cd ".."
+cd ..
 
 Link ()
 {
@@ -16,4 +16,4 @@ Link \
 	Default\ \(Linux\).sublime-keymap \
 	~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap
 
-echo "OK"
+echo OK
