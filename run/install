@@ -18,5 +18,6 @@ LinkSame ()
 LinkSame Preferences.sublime-settings
 LinkSame Default\ \(Linux\).sublime-keymap
 LinkSame scope_hunter.sublime-settings
+LinkSame bh_core.sublime-settings
 
 echo OK

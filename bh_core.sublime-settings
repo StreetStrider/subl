@@ -1,0 +1,92 @@
+{
+	// TODO:
+	"popup_line_context": 2,
+
+	// Experimental: Use 'popup_bracket_emphasis' to customize the popup's bracket emphasis color
+	"use_custom_popup_bracket_emphasis": false,
+
+	// Experimental: Specify the scope (to get color) to emphasize the off screen bracket
+	// in popups.  Alternatively you can use a hex value in the form '#rgb' or '#rrggbb'.
+	"popup_bracket_emphasis": "keyword",
+
+	"show_in_minimap": true,
+
+	// (scope|__default__|__bracket__)
+	"high_visibility_color": "__bracket__",
+	// ^TODO
+
+
+	"show_offscreen_bracket_popup": false,
+	"content_highlight_bar": true,
+	"align_content_highlight_bar": true,
+
+	"high_visibility_enabled_by_default": false,
+	"high_visibility_style": "outline",
+
+	"bracket_styles":
+	{
+		"default":
+		{
+			// "icon": "dot",
+
+			// "color": "region.yellowish brackethighlighter.default",
+			"color": "bracket-highlighter",
+
+			// (solid|outline|underline)
+			// ST3 has additional options of (thin_underline|squiggly|stippled)
+			"style": "thin_underline"
+		},
+		"unmatched":
+		{
+			"icon": "question",
+			// "color": "brackethighlighter.unmatched",
+			"style": "outline"
+		},
+
+		"curly":
+		{
+			"icon": "curly_bracket",
+			"color": "bracket-highlighter.curly",
+		},
+		"round":
+		{
+			"icon": "round_bracket"
+			// "color": "brackethighlighter.round",
+		},
+		"square":
+		{
+			"icon": "square_bracket"
+			// "color": "brackethighlighter.square",
+		},
+		"angle":
+		{
+			"icon": "angle_bracket"
+			// "color": "brackethighlighter.angle",
+		},
+		"tag":
+		{
+			"icon": "tag"
+			// "color": "brackethighlighter.tag",
+		},
+		"c_define":
+		{
+			"icon": "hash"
+			// "color": "brackethighlighter.c_define",
+		},
+		"single_quote":
+		{
+			"icon": "single_quote"
+			// "color": "brackethighlighter.quote",
+		},
+		"double_quote":
+		{
+			"icon": "double_quote"
+			// "color": "brackethighlighter.quote",
+		},
+		"regex":
+		{
+			"icon": "regex"
+			// "color": "brackethighlighter.quote",
+		}
+	}
+}
