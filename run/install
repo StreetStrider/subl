@@ -8,16 +8,15 @@ Link ()
 	ln --symbolic --relative --force "${@}"
 }
 
-Link \
-	Preferences.sublime-settings \
-	~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+LinkSame ()
+{
+	Link \
+		"${1}" \
+		"${HOME}/.config/sublime-text-3/Packages/User/${1}"
+}
 
-Link \
-	Default\ \(Linux\).sublime-keymap \
-	~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap
-
-Link \
-	scope_hunter.sublime-settings \
-	~/.config/sublime-text-3/Packages/User/scope_hunter.sublime-settings
+LinkSame Preferences.sublime-settings
+LinkSame Default\ \(Linux\).sublime-keymap
+LinkSame scope_hunter.sublime-settings
 
 echo OK
