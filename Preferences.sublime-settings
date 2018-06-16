@@ -1,8 +1,13 @@
 {
 	"drag_text": false,
 	"enable_tab_scrolling": false,
+
 	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_square": false,
 	"match_brackets_content": false,
+
 	"show_definitions": false,
 
 	"theme": "Soda Light 3.sublime-theme",
