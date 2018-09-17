@@ -1,0 +1,19 @@
+{
+	"syntaxes":
+	[
+		{
+			"syntax": "JavaScript (Naomi)",
+			"rules":
+			[
+				{ "first_line": "^#!\\s+/usr/bin/env\\s+node" }
+			]
+		},
+		{
+			"syntax": "Bourne Again Shell (bash)",
+			"rules":
+			[
+				{ "first_line": "^#!\\s+(/bin/sh|/bin/bash)" }
+			]
+		}
+	]
+}
