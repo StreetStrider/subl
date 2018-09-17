@@ -10,6 +10,9 @@
 	{ "keys": ["alt+shift+d"], "command": "expand_selection", "args": {"to": "brackets"} },
 	{ "keys": ["alt+d"],       "command": "move_to",          "args": {"to": "brackets"} },
 
+	{ "keys": ["alt+up"],   "command": "select_lines", "args": {"forward": false } },
+	{ "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true } },
+
 	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
 	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
 
