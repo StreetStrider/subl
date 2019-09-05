@@ -27,6 +27,7 @@
 		"no_italic"
 	],
 
+	"show_full_path": false,
 	"show_encoding": true,
 	"show_errors_inline": true,
 	"show_line_endings": true,
