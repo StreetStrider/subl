@@ -2,6 +2,12 @@
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+
 	"always_show_minimap_viewport": true,
 
 	"match_brackets": false,
