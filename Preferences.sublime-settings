@@ -26,6 +26,8 @@
 
 	"tab_size": 3,
 
+	"smart_indent": false,
+
 	"dpi_scale": 2,
 	"font_face": "Anonymous Pro",
 	"font_size": 11,
