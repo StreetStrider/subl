@@ -9,6 +9,7 @@
 	],
 
 	"always_show_minimap_viewport": true,
+	"mini_diff": true,
 
 	"match_brackets": false,
 	"match_brackets_angle": false,
