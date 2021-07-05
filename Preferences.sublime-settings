@@ -43,7 +43,7 @@
 	"show_full_path": true,
 	"show_rel_path": true,
 
-	"show_definitions": false,
+	"show_definitions": true,
 	"show_errors_inline": true,
 
 	"show_git_status": false,
