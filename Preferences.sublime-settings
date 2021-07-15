@@ -8,6 +8,12 @@
 		"node_modules"
 	],
 
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+
+	"reveal_menu": false,
 	"always_show_minimap_viewport": true,
 	"mini_diff": true,
 
