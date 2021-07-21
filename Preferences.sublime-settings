@@ -56,5 +56,7 @@
 	"show_git_status_in_status_bar": false,
 
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": false
+
+	"word_wrap": false,
+	"wrap_width": 80
 }
