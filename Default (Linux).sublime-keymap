@@ -14,8 +14,8 @@
 	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
 	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
 
-	{ "keys": ["alt+d"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
-	{ "keys": ["alt+shift+d"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
+	{ "keys": ["alt+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
+	{ "keys": ["alt+shift+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
 	{ "keys": ["ctrl+e"], "command": "find_next" },
 	{ "keys": ["ctrl+shift+e"], "command": "find_prev" }
 ]
