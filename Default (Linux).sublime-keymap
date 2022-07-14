@@ -17,5 +17,17 @@
 	{ "keys": ["alt+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
 	{ "keys": ["alt+shift+s"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
 	{ "keys": ["ctrl+e"], "command": "find_next" },
-	{ "keys": ["ctrl+shift+e"], "command": "find_prev" }
+	{ "keys": ["ctrl+shift+e"], "command": "find_prev" },
+
+	{ "keys": ["alt+d"], "command": "bh_key", "args":
+		{ "plugin":
+			{
+				"args": { "select": "right", "alternate": true },
+				"command": "bh_modules.bracketselect",
+				"type": ["__all__"]
+			},
+			"lines": true,
+			"no_outside_adj": null
+		}
+	}
 ]

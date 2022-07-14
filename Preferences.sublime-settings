@@ -5,11 +5,14 @@
 	"folder_exclude_patterns":
 	[
 		".git",
-		"node_modules"
+		"node_modules",
+		"dist"
 	],
 
 	"ignored_packages":
 	[
+		"Java",
+		"Rails",
 		"Vintage",
 	],
 
@@ -55,8 +58,8 @@
 	"show_git_status": false,
 	"show_git_status_in_status_bar": false,
 
-	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
 
 	"word_wrap": false,
-	"wrap_width": 80
+	"wrap_width": 80,
 }
