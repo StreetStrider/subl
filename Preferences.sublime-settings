@@ -11,8 +11,6 @@
 
 	"ignored_packages":
 	[
-		"Java",
-		"Rails",
 		"Vintage",
 	],
 
