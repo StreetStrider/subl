@@ -5,6 +5,7 @@
 	"folder_exclude_patterns":
 	[
 		".git",
+		".nyc_output",
 		"node_modules",
 		"dist"
 	],
@@ -34,6 +35,10 @@
 
 	"smart_indent": false,
 
+	"tab_completion": false,
+	"auto_complete_commit_on_tab": false,
+	"auto_complete_with_fields": false,
+
 	"dpi_scale": 2,
 	"font_face": "Anonymous Pro",
 	"font_size": 11,
@@ -58,6 +63,9 @@
 
 	"word_separators": "./\\()\"':,.;<>~!@#%^&*|+=[]{}`~?",
 
+	"show_spelling_errors": false,
+
 	"word_wrap": false,
 	"wrap_width": 80,
+	"index_files": true,
 }

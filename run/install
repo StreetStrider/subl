@@ -20,5 +20,6 @@ LinkSame Default\ \(Linux\).sublime-keymap
 LinkSame scope_hunter.sublime-settings
 LinkSame bh_core.sublime-settings
 LinkSame ApplySyntax.sublime-settings
+LinkSame Word\ Highlight.sublime-settings
 
 echo OK

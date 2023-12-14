@@ -2,17 +2,17 @@
 	"syntaxes":
 	[
 		{
-			"syntax": "JavaScript (Naomi)",
+			"syntax": "JavaScript/JavaScript",
 			"rules":
 			[
-				{ "first_line": "^#!\\s+/usr/bin/env\\s+node" }
+				{ "first_line": "zx" }
 			]
 		},
 		{
 			"syntax": "Bourne Again Shell (bash)",
 			"rules":
 			[
-				{ "first_line": "^#!\\s+(/bin/sh|/bin/bash)" }
+				{ "first_line": "^#!\\s*(/bin/sh|/bin/bash)" }
 			]
 		}
 	]
