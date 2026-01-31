@@ -1,6 +1,7 @@
 {
 	"drag_text": false,
 	"enable_tab_scrolling": false,
+	"sidebar_on_right": false,
 
 	"folder_exclude_patterns":
 	[
@@ -41,7 +42,10 @@
 
 	"dpi_scale": 2,
 	"font_face": "Anonymous Pro",
+
 	"font_size": 11,
+	"default_font_size": 11,
+
 	"font_options":
 	[
 		"gray_antialias"
