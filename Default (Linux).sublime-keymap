@@ -11,6 +11,11 @@
 	{ "keys": ["alt+up"],   "command": "select_lines", "args": {"forward": false } },
 	{ "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true } },
 
+	{ "keys": ["ctrl+u"], "command": "jump_back" },
+	{ "keys": ["ctrl+-"], "command": "jump_back" },
+	{ "keys": ["ctrl++"], "command": "jump_forward" },
+	{ "keys": ["ctrl+="], "command": "jump_forward" },
+
 	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
 	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
 
